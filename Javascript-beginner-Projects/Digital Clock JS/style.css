@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(55deg, blue, #0ef);
+    min-height: 100vh;
+    
+}
+
+.clock {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px 0 50px 0;
+    box-shadow: 2px 2px 25px black;
+    font-weight: 600;
+    background: #0ef7;
+    font-size: 20px;
+    padding: 25px 60px;
+}
+
+ .clock #time {
+    font-size: 3rem;
+}
+
+#timeFormat{
+    margin-left: 9px;
+    margin-bottom: 0;
+    font-size: 20px;
+    
+}
